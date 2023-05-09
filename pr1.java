@@ -1,4 +1,5 @@
 public class pr1 {
+    // перемешивание
     public static void main(String[] args) {
         String S = "abcdefg";
         int [] index = {7,6,9, 5, 4, 1, 3, 2};

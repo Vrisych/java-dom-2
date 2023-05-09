@@ -1,28 +1,29 @@
 import java.util.Scanner;
-
+//замена в рецепте. вводимый русский текст превращается в белиберду
 public class pr2 {
     public static void main(String[] args) {
 
         Scanner read = new Scanner(System.in, "UTF-8");
-        System.out.println("колво строк");
+        System.out.println("Введите кол-во строк");
         String NStrS = read.nextLine();
         int NStr = Integer.parseInt(NStrS);
-        System.out.println("колво строк замены");
+        System.out.println("Введите кол-во строк замены");
         String MIngS = read.nextLine();
         int MIng = Integer.parseInt(MIngS);
 
 
         String [] text = new String [NStr];
         String [] ing = new String [MIng];
+        System.out.println("Строка");
 
         for (int i=0; i<NStr; i++){
-            System.out.println("раз");
             
             text [i] = read.nextLine();
         }
+        System.out.println("Замена");
+
         String ingredients = "";
         for (int i=0; i<MIng; i++){
-            System.out.println("двас");
 
             ing [i] = read.nextLine();
             ingredients = ingredients +  ing[i] + "\n";

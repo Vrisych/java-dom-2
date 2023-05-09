@@ -1,6 +1,6 @@
 
 public class pr21 {
-
+//замена с уже введенным текстом
     public static void main(String[] args) {
 
         //int NStr = 2;
